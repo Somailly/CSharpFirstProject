@@ -25,7 +25,7 @@ namespace UnitBrains.Player
             ///////////////////////////////////////
             // Homework 1.3 (1st block, 3rd module)
             ///////////////////////////////////////   
-            for (int i = 1; i <= currentTemperature; i++)  
+            for (int i = 0; i <= currentTemperature; i++)  
             {
                 var projectile = CreateProjectile(forTarget);
                 AddProjectileToList(projectile, intoList);
